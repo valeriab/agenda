@@ -21,10 +21,7 @@ import React from "react";
 import styled from "styled-components";
 
 const tagDisplay = {
-  "nl.dezwijger": "PDZ*",
-  "org.waag": "Waag",
-  "com.meetup": "Meetup",
-  "nl.hetnieuweinstituut": "HNI"
+  "com.meetup": "Meetup"
 };
 
 export const SMALL = 15;

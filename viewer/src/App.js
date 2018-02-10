@@ -24,7 +24,7 @@ import Event, { MAX_WIDTH, PADDING } from "./Event";
 import Section from "./Section";
 
 const URL =
-  "https://gist.githubusercontent.com/sander/314ce29455c4ddc0052303218855f0d9/raw/agenda.json";
+  "https://gist.githubusercontent.com/valeriab/d21986d8eff09397206b4ebd0331e220/raw/500b6b6601200506834a9a2dcf0a121cad9b37b1/agenda.json";
 const LINE = 20;
 const NORMAL = 19;
 const LARGE = NORMAL;
