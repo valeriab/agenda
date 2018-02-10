@@ -1,30 +1,21 @@
 module.exports.root = "./data";
-module.exports.sources = [
-  "org.waag",
-  "nl.dezwijger",
-  "nl.hetnieuweinstituut",
-  "com.meetup",
-  "com.eventbrite"
-];
+module.exports.sources = ["com.meetup", "com.eventbrite"];
 
 /*
  * Use https://secure.meetup.com/meetup_api/console/?path=/2/groups
  * to get a Meetup group ID.
  */
 module.exports.meetupGroups = {
-  [21520976]: "Strategic Design Sandbox",
-  [18299438]: "Amsterdam User Experience Designers",
-  [20307541]: "Service Design Network Netherlands: Workouts",
-  [21389794]: "Dutch Design Month",
-  [9210352]: "HACKERS & DESIGNERS",
-  [8865472]: "Amsterdam UX",
-  [18994920]: "Ladies that UX Amsterdam Meetup",
-  [19717860]: "Booking.com UX Meetup",
-  [1988381]: "Rotterdam UX Cocktail Hours",
-  [18571902]: "Startup Boot Businesses Networking Meetup"
+  [18667416]: "Coding Value Zoetermeer",
+  [14194182]: "Dev 070",
+  [11093492]: "Docker Randstad",
+  [18611398]: "Functional Rotterdam",
+  [18822858]: "Developers NL Meetup",
+  [1759253]: "/dev/Haag",
+  [24197985]: "KPN CloudGURUS",
+  [4878142]: "AmsterdamJS",
+  [21517897]: "Zoetermeer technight",
+  [20144457]: "Scrum Round Table"
 };
 
-module.exports.eventbriteOrganisers = [
-  "thingscon-amsterdam-14961243701",
-  "fuckup-nights-amsterdam-9386511841"
-];
+module.exports.eventbriteOrganisers = ["hackages-13629245528"];
